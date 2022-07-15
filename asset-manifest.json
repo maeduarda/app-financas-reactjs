@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/app-financas-reactjs/static/js/main.4266e9b0.js",
+    "main.js": "/app-financas-reactjs/static/js/main.c74de5de.js",
     "index.html": "/app-financas-reactjs/index.html",
-    "main.4266e9b0.js.map": "/app-financas-reactjs/static/js/main.4266e9b0.js.map"
+    "main.c74de5de.js.map": "/app-financas-reactjs/static/js/main.c74de5de.js.map"
   },
   "entrypoints": [
-    "static/js/main.4266e9b0.js"
+    "static/js/main.c74de5de.js"
   ]
 }
