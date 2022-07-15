@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Grid from "../Grid";
 import * as C from "./style";
 
+
 export const Form = ({ handleAdd, transactionsList, setTransactionsList }) => {
   const [desc, setDesc] = useState("");
   const [amount, setAmount] = useState("");
@@ -30,7 +31,7 @@ export const Form = ({ handleAdd, transactionsList, setTransactionsList }) => {
     setDesc("");
     setAmount("");
   };
-
+  
   return (
     <>
       <C.Container>
@@ -40,11 +41,11 @@ export const Form = ({ handleAdd, transactionsList, setTransactionsList }) => {
         </C.InputContent>
         <C.InputContent>
           <C.Label>Valor</C.Label>
-          <C.Input
+          <C.Input  
             value={amount}
             type="number"
-            onChange={(e) => setAmount(e.target.value)}
-          />
+            onChange={(e) => setAmount(e.target.value)} >
+          </C.Input>
         </C.InputContent>
         <C.RadioGroup>
           <C.Input
