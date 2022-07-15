@@ -5,9 +5,9 @@ export const ResumeItem = ({title, Icon, value}) => {
   return (
     <C.Container>
         <C.Header>
-            <C.HeadetTitle>
+            <C.HeaderTitle>
                {title}
-            </C.HeadetTitle>
+            </C.HeaderTitle>
             <Icon/>
         </C.Header>
         <C.Total>{value}</C.Total>
